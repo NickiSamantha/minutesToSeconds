@@ -1,0 +1,39 @@
+*::before
+*::after {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    text-align: center;
+}
+body{
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+label {
+    display: block;
+    margin-bottom: 10px;
+}
+input[type="number"]{
+    width: 50%;
+    height: 30px ;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid black;
+    background-color: aquamarine;
+}
+#calculate {
+    background-color: rgb(9, 1, 17);
+    color: rgb(154, 241, 241);
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+form {
+    margin: 20px auto;
+    width: 50% ;
+    padding: 20px;
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: blueviolet;
+}
